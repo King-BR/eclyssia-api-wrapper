@@ -1,5 +1,5 @@
 const eclyssia = require("eclyssia-api-wrapper");
-const fs = require("fs");
+const fs = require("fs"); 
 
 // show all endpoints
 console.log(eclyssia.endpoints)

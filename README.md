@@ -1,6 +1,6 @@
 # eclyssia-api-wrapper
 unnoficial [eclyssia api](https://docs.eclyssia-api.tk/) wrapper
-
+ 
 ## installation
 ```
 npm install eclyssia-api-wrapper

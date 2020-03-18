@@ -1,5 +1,5 @@
 const fetch = require("node-superfetch")
- 
+
 const BASE_URL = "https://eclyssia-api.tk/api/v1/"
 
 const endpoints = ['blur', 'greyscale', 'invert', 'pixalate', 'posterize', 'sepia', 'beautiful', 'blood', 'bobross',

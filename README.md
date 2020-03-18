@@ -1,5 +1,5 @@
 # eclyssia-api-wrapper
-unnoficial [eclyssia api](https://docs.eclyssia-api.tk/) wrapper
+unnoficial [eclyssia api](https://eclyssia-api.tk/) wrapper
  
 ## installation
 ```

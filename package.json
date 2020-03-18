@@ -1,0 +1,30 @@
+{
+  "name": "eclyssia-api-wrapper",
+  "version": "1.0.0",
+  "description": "unnoficial eclyssia api wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors": [
+    {
+      "name": "Fernando",
+      "url": "https://github.com/King-BR"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/King-BR/eclyssia-api-wrapper.git"
+  },
+  "keywords": [
+    "eclyssia"
+  ],
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/King-BR/eclyssia-api-wrapper/issues"
+  },
+  "homepage": "https://github.com/King-BR/eclyssia-api-wrapper#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}

@@ -48,3 +48,4 @@ eclyssia.endpoints
 * [Eclyssia API documentation](https://docs.eclyssia-api.tk/)
 * [Discord (Eclyssia)](https://discord.gg/V5X2t9z)
 * [Wrapper Source Code (github)](https://github.com/King-BR/eclyssia-api-wrapper)
+* [NPM](https://www.npmjs.com/package/eclyssia-api-wrapper)

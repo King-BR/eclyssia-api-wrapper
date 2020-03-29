@@ -2,8 +2,8 @@ const fetch = require("node-superfetch")
 
 const BASE_URL = "https://eclyssia-api.tk/api/v1/"
 
-const endpoints = ['blur', 'greyscale', 'invert', 'pixalate', 'posterize', 'sepia', 'beautiful', 'blood', 'bobross',
-    'brazzers', 'captcha', 'gay', 'kackolantern', 'phvideo', 'prison', 'treasure', 'triggered', 'whatspokemon', 'meme']
+const endpoints = ['blur', 'greyscale', 'invert', 'pixalate', 'posterize', 'sepia', 'beautiful', 'blood', 'bobross', 'brazzers',
+    'captcha', 'gay', 'kackolantern', 'phvideo', 'prison', 'treasure', 'triggered', 'whatspokemon', 'meme', 'rainbow']
 
 /**
  * @returns {Array} Returns an Array of suported endpoints
@@ -262,6 +262,20 @@ exports.meme = async function(url, topText, bottomText) {
 
     let res = await(fetch.get(`${BASE_URL}meme?url=${url}&top=${topText}&bottom=${bottomText}&width=1024&height=1024`))
 
+    if(res.status !== 200) {
+        throw new Error(res.response)
+    }
+
+    return res.buffer()
+}
+
+/**
+ * @param url {String} Image URL
+ * @returns {Buffer} Image Buffer
+ */
+exports.rainbow = async function(url) {
+    let res = await(fetch.get(`${BASE_URL}rainbow?url=${url}`))
+    
     if(res.status !== 200) {
         throw new Error(res.response)
     }

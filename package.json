@@ -1,6 +1,6 @@
-{ 
+{
   "name": "eclyssia-api-wrapper",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "unnoficial eclyssia api wrapper",
   "main": "index.js",
   "scripts": {

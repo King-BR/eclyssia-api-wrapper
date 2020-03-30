@@ -6,6 +6,7 @@ unnoficial [eclyssia api](https://eclyssia-api.tk/) wrapper
 npm install eclyssia-api-wrapper
 ```
 ## example
+for examples in how to send discord messages see [here](https://github.com/King-BR/eclyssia-api-wrapper/blob/master/Examples/discord-message-example.js)
 ```js
 const eclyssia = require("eclyssia-api-wrapper");
 const fs = require("fs");
